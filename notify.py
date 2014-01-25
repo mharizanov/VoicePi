@@ -25,7 +25,7 @@ def main():
     # rest of program...
     if options.sender is None or options.subject is None or options.message is None:
 	sys.exit("Not all parameters are passed")
-    if options.sender=='mharizanov@gmail.com' and options.subject=='Note to self':
+    if options.sender=='******----*******@gmail.com' and options.subject=='Note to self':
 
 	if options.message =='TV off':
 		if os.path.isfile('/home/pi/lg.py'): # that' my TV command script
